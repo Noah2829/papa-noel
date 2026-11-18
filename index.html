@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liste de Noël – Papa</title>
+<meta name="description" content="La liste de Noël de Papa : une sélection d’idées cadeaux.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top">✦ Noël <span>2026</span></a>
+  <a class="nav-link" href="#liste">Voir la liste</a>
+</header>
+
+<section class="hero" id="top">
+  <p class="eyebrow">Édition spéciale · Noël 2026</p>
+  <h1>La liste de Noël<br><em>de Papa</em></h1>
+  <p class="lead">Une sélection d’idées cadeaux choisies avec soin. Chaque carte renvoie directement vers le produit.</p>
+  <div class="count" id="countdown" aria-live="polite"></div>
+  <a class="cta" href="#liste">Découvrir les cadeaux <span>↓</span></a>
+</section>
+
+<main class="wrap" id="liste">
+  <div class="toolbar">
+    <div class="chips" id="filters"></div>
+    <div class="progress">
+      <span id="progressText"></span>
+      <div class="bar"><i id="progressBar"></i></div>
+    </div>
+  </div>
+
+
+  -->
+  <div class="grid" id="grid">
+
+    <!-- ===== CADEAU : Montre automatique classique ===== -->
+    <article class="card" data-cat="Élégance">
+      <div class="media">⌚</div>
+      <div class="body">
+        <h3>Montre G-shock </h3>
+        <p>Boîtier et bracelet translucides, cadran bleu métallique brillant : la G-SHOCK qui allie robustesse et style. Résistante aux chocs, étanche jusqu’à 20 bar, avec double éclairage LED et 3 ans d’autonomie.</p>
+        <div class="row">
+          <span class="price">129 €</span>
+          <a class="btn" href="https://www.casio.com/fr/watches/gshock/product.GA-2100BM-7A2/" target="_blank" rel="noopener noreferrer">Voir le produit</a>
+        </div>
+      </div>
+      <button class="gift">Marquer comme offert</button>
+    </article>
+
+    <!-- ===== CADEAU : Casque audio sans fil ===== -->
+    <article class="card" data-cat="High-tech">
+      <div class="media">🎮</div>
+      <div class="body">
+        <h3>Manette ps5</h3>
+        <p>La DualSense aux couleurs de GTA 6 : finition noire chatoyante aux reflets changeants, palmiers moulés dans la coque et logo officiel. Elle garde le pavé tactile, le micro intégré, le capteur de mouvement 6 axes et le port USB-C. <strong>⚠️ À précommander avant le 19 novembre : stock limité, risque de rupture.</strong>.</p>
+        <div class="row">
+          <span class="price">84,99 €</span>
+          <a class="btn" href="https://www.playstation.com/fr-fr/accessories/dualsense-wireless-controller/buy-now/product/grand-theft-auto-vi-black-limited-edition/?srsltid=AYCX9vL9SOUf5-KqewINKRckGZdJPuzWjAnsuhoJr9xEHC1GrcncWybJ" target="_blank" rel="noopener noreferrer">Voir le produit</a>
+        </div>
+      </div>
+      <button class="gift">Marquer comme offert</button>
+    </article>
+
+    <!-- ===== CADEAU : Coffret dégustation ===== -->
+    <article class="card" data-cat="Lifestyle">
+      <div class="media">👟</div>
+      <div class="body">
+        <h3>New Balance 2002r protection pack </h3>
+        <p>La sneaker rétro running de New Balance dans sa version « Protection Pack » : un look usé et vieilli, avec une base en mesh souple et des surpiqûres en cuir et daim rugueux. Semelle ABZORB et amorti N-ergy pour un confort idéal au quotidien. <strong>Taille 44.</strong>.</p>
+        <div class="row">
+          <span class="price">170€</span>
+          <a class="btn" href="https://www.newbalance.fr/pd/2002r-protection-pack/M2002RDA-D-10.html" target="_blank" rel="noopener noreferrer">Voir le produit</a>
+        </div>
+      </div>
+      <button class="gift">Marquer comme offert</button>
+    </article>
+
+    <!-- ===== CADEAU : Liseuse électronique ===== -->
+    <article class="card" data-cat="High-tech">
+      <div class="media">🎧</div>
+      <div class="body">
+        <h3>Casque gaming E-sports sans fil Razer BlackShark V3 Noir</h3>
+        <p>Exprimez votre volonté de gagner haut et fort avec le Razer BlackShark VB, un casque esports sans fil conçu pour la nouvelle méta-compétition. Avec un système sans fil à très faible latence à la pointe de l'industrie et des performances audio améliorées, ainsi qu'un micro super large bande exceptionnel, augmentez votre avance avec tous les avantages possibles</p>
+       <span class="tag">Black Friday</span>
+<div class="row">
+  <div class="prices">
+    <span class="price promo">129,99 €</span>
+    <s class="old">169,99 €</s>
+    <span class="off">-24%</span>
+  </div>
+  <a class="btn" href="https://www.fnac.com/Casque-E-sports-sans-fil-Razer-BlackShark-V3-Noir/a22038505/w-4" target="_blank" rel="noopener noreferrer">Voir le produit</a>
+</div>
+      </div>
+      <button class="gift">Marquer comme offert</button>
+    </article>
+
+
+</main>
+
+<footer class="foot">
+  <p>Fait avec ♥ pour le papa noël</p>
+  <p class="small">Joyeux Noël à toute la famille</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
